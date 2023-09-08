@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* Container styling */
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vmax;
+}
+
+.timer {
+  font-size: 5rem;
+  padding: 0 2vmax 2vmax;
+}
+
+
+button {
+  background-color: rgb(57, 255, 20);
+  font-size: 1.5rem;
+  font-weight: 545;
+  padding: 2vh 4vh;
+  margin: 0 3vh;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+
+}
+
+button#start:hover {
+  background-color: rgb(50, 125, 254);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  /* transform: translate(-1px, -1px); */
+  padding: 2vh 5vh;
+}
+
+button#stop:hover {
+  background-color: rgb(255, 49, 49);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  /* transform: translate(-1px, -1px); */
+  padding: 2vh 5vh;
+}
+
+/* Footer styling */
+
+.footer {
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-bottom: 1vmin;
+}
+
+.footer>span {
+  color: rgb(215, 0, 0);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer>span:hover {
+  color: rgb(255, 0, 0);
+}
